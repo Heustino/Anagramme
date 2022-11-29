@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice_2</title>
+</head>
+<body onload="alphabet_order()"> 
+    
+    <script>
+        // Fonction JavaScript qui renvoie une chaine passée avec des lettres dans l'ordre alphabétique
+        function alphabet_order(str){
+            return str.split('').sort().join('');
+        }
+        
+        // mettre le nom, le mot ou la phrase à inverser enttre les cotes
+        document.write (alphabet_order ("Bonjour"));
+    </script> 
+   
+</body>
+</html>
